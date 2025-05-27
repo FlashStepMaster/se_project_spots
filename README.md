@@ -11,9 +11,10 @@ An website that allows you to upload and share images for other peole to see
 - HTML
 - CSS
 - Responsive Design
+- Visual Studio Code
 
 ## Deployment
 
 This webpage is deployed to GitHub Pages
 
-- Deployment Link:
+- [Deployment Link](https://flashstepmaster.github.io/se_project_spots/)
