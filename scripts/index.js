@@ -48,9 +48,9 @@ editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 
 function handleAddCardSubmit(evt) {
   evt.preventDefault();
-  console.log(newPostImageInput);
-  console.log(newPostCaptionInput);
   newPostModal.classList.remove("modal_is-opened");
 }
+console.log(newPostImageInput);
+console.log(newPostCaptionInput);
 
 newPostForm.addEventListener("submit", handleAddCardSubmit);
