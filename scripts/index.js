@@ -48,9 +48,15 @@ editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 
 function handleAddCardSubmit(evt) {
   evt.preventDefault();
+  const formData = new FormData(newPostForm);
+  const data = {};
+
+  formData.forEach((value, key) => {
+    data[key] = value;
+  });
+
+  console.log(data);
   newPostModal.classList.remove("modal_is-opened");
 }
-console.log(newPostImageInput);
-console.log(newPostCaptionInput);
 
 newPostForm.addEventListener("submit", handleAddCardSubmit);
